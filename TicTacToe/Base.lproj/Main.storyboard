@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ttt_board.png" translatesAutoresizingMaskIntoConstraints="NO" id="QU2-X9-7dt">
+                                <frame key="frameInset" minX="37" minY="164" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nil" translatesAutoresizingMaskIntoConstraints="NO" id="5Xj-EN-b6e">
+                                <frame key="frameInset" minX="147" minY="174" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="roV-sO-ft7" appends="YES" id="S65-MK-Jde"/>
+                                </connections>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nil" translatesAutoresizingMaskIntoConstraints="NO" id="PK3-Cf-NhB">
+                                <frame key="frameInset" minX="248" minY="274" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Wqa-i3-6MH" appends="YES" id="v9L-ft-PMX"/>
+                                </connections>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nil" translatesAutoresizingMaskIntoConstraints="NO" id="cmW-QS-qe8">
+                                <frame key="frameInset" minX="46" minY="376" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DWw-a1-cMP" appends="YES" id="Y8E-ik-apl"/>
+                                </connections>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nil" translatesAutoresizingMaskIntoConstraints="NO" id="ula-yk-yMq">
+                                <frame key="frameInset" minX="147" minY="376" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DR6-Nh-4aV" appends="YES" id="w4a-RP-cDw"/>
+                                </connections>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nil" translatesAutoresizingMaskIntoConstraints="NO" id="7xt-3h-0yp">
+                                <frame key="frameInset" minX="248" minY="376" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="t5d-Sm-7Uo" appends="YES" id="ujD-YS-LBK"/>
+                                </connections>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nil" translatesAutoresizingMaskIntoConstraints="NO" id="wM1-UT-XDX">
+                                <frame key="frameInset" minX="147" minY="274" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wUN-pi-RT7" appends="YES" id="uOf-ap-fjW"/>
+                                </connections>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nil" translatesAutoresizingMaskIntoConstraints="NO" id="zzY-LN-eYC">
+                                <frame key="frameInset" minX="46" minY="274" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4Fl-BE-Azn" appends="YES" id="Gre-rk-sxo"/>
+                                </connections>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nil" translatesAutoresizingMaskIntoConstraints="NO" id="FlI-Z7-wgW">
+                                <frame key="frameInset" minX="248" minY="174" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="423-1b-Bvv" appends="YES" id="Vc0-Uz-y0f"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5U3-sc-8iL" userLabel="New Game">
+                                <frame key="frameInset" minX="141" minY="528" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="New Game"/>
+                                <connections>
+                                    <action selector="buttonReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dhe-5z-t74"/>
+                                </connections>
+                            </button>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nil" translatesAutoresizingMaskIntoConstraints="NO" id="GRK-7l-nS3">
+                                <frame key="frameInset" minX="46" minY="174" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="QGP-qG-D94" appends="YES" id="Vq0-fZ-prQ"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X Goes First" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bE-eb-WHr">
+                                <frame key="frameInset" minX="141" minY="487" width="132" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="board" destination="QU2-X9-7dt" id="5LO-TR-jPS"/>
+                        <outlet property="resetButton" destination="5U3-sc-8iL" id="qsC-Vw-dnY"/>
+                        <outlet property="s1" destination="GRK-7l-nS3" id="7K2-Rz-cdn"/>
+                        <outlet property="s2" destination="5Xj-EN-b6e" id="xNK-tg-23b"/>
+                        <outlet property="s3" destination="FlI-Z7-wgW" id="nAN-tJ-Zjn"/>
+                        <outlet property="s4" destination="zzY-LN-eYC" id="9QM-xX-keP"/>
+                        <outlet property="s5" destination="wM1-UT-XDX" id="ooh-Ep-mQp"/>
+                        <outlet property="s6" destination="PK3-Cf-NhB" id="5Th-nS-gwe"/>
+                        <outlet property="s7" destination="cmW-QS-qe8" id="wC2-NY-2oi"/>
+                        <outlet property="s8" destination="ula-yk-yMq" id="flT-uR-ZTC"/>
+                        <outlet property="s9" destination="7xt-3h-0yp" id="NFG-DG-b2S"/>
+                        <outlet property="whoseTurn" destination="5bE-eb-WHr" id="Lrd-7v-X6W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="QGP-qG-D94">
+                    <connections>
+                        <action selector="buttonSwap:" destination="BYZ-38-t0r" id="B7G-XI-bXP"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="roV-sO-ft7">
+                    <connections>
+                        <action selector="buttonSwap:" destination="BYZ-38-t0r" id="DYR-70-hhM"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="423-1b-Bvv">
+                    <connections>
+                        <action selector="buttonSwap:" destination="BYZ-38-t0r" id="PJ7-Ou-XF3"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="4Fl-BE-Azn">
+                    <connections>
+                        <action selector="buttonSwap:" destination="BYZ-38-t0r" id="pY4-f7-11m"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wUN-pi-RT7">
+                    <connections>
+                        <action selector="buttonSwap:" destination="BYZ-38-t0r" id="0k9-YM-eYf"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Wqa-i3-6MH">
+                    <connections>
+                        <action selector="buttonSwap:" destination="BYZ-38-t0r" id="DnY-3H-XgS"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="DWw-a1-cMP">
+                    <connections>
+                        <action selector="buttonSwap:" destination="BYZ-38-t0r" id="HJ9-7i-FKM"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="DR6-Nh-4aV">
+                    <connections>
+                        <action selector="buttonSwap:" destination="BYZ-38-t0r" id="ZhJ-nH-qH2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="t5d-Sm-7Uo">
+                    <connections>
+                        <action selector="buttonSwap:" destination="BYZ-38-t0r" id="hWc-Ka-nyl"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-1191.2" y="-18.440779610194905"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nil" width="480" height="480"/>
+        <image name="ttt_board.png" width="480" height="480"/>
+    </resources>
+</document>
